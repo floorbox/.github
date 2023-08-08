@@ -1,0 +1,73 @@
+name: Support Issue
+description: Create a support issue
+title: "[SUPPORT]: "
+labels: "support"
+projects: floorbox/2
+body:
+  - type: textarea
+    id: contact
+    attributes:
+      label: Contact Details
+      description: Contact details for the user who requested this feature
+      value: |
+        ex. User - email@example.com OR *No Contact*
+
+        ---------------------------------------------
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Support request description
+      description: A description of the bug
+      value: |
+        *No Description*
+
+        ---------------------------------------------
+    validations:
+      required: true
+  - type: textarea
+    id: flow
+    attributes:
+      label: Flow
+      description: Describe the intended user flow to help with this support request
+      value: |
+        - [ ] User can do this
+        - [ ] User can do that
+        - [ ] User can do this
+
+        ---------------------------------------------
+    validations:
+      required: false
+  - type: textarea
+    id: ressources
+    attributes:
+      label: Ressources
+      description: Links to ressources that can help with the resolution
+      value: |
+        ---------------------------------------------
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Any additional notes
+      value: |
+        ```php
+        echo "This is a support request";
+        ```
+
+        ---------------------------------------------
+    validations:
+      required: false
+  - type: input
+    id: ticket
+    attributes:
+      label: Ticket
+      description: Link to the ticket for this feature
+      placeholder: ex. https://jira.com/ticket/123
+      value: |
+        *No Ticket*
+    validations:
+      required: false

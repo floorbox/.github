@@ -1,0 +1,84 @@
+name: Feature Issue
+description: Create a feature issue
+title: "[FEAT]: "
+labels: "feature"
+projects: floorbox/2
+body:
+  - type: textarea
+    id: contact
+    attributes:
+      label: Contact Details
+      description: Contact details for the user who requested this feature
+      value: |
+        ex. User - email@example.com OR *No Contact*
+
+        ---------------------------------------------
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature description
+      description: A description of the feature
+      value: |
+        *No Description*
+
+        ---------------------------------------------
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason for feature request
+      description: Why is this feature needed?
+      value: |
+        *No Reasons*
+
+        ---------------------------------------------
+    validations:
+      required: true
+  - type: textarea
+    id: flow
+    attributes:
+      label: Flow
+      description: Describe the intended user flow of the feature
+      value: |
+        - [ ] User can do this
+        - [ ] User can do that
+        - [ ] User can do this
+
+        ---------------------------------------------
+    validations:
+      required: false
+  - type: textarea
+    id: ressources
+    attributes:
+      label: Ressources
+      description: Links to ressources that can help with the implementation
+      value: |
+        ---------------------------------------------
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Any additional notes
+      value: |
+        ```php
+        echo "This is a feature";
+        ```
+
+        ---------------------------------------------
+    validations:
+      required: false
+  - type: input
+    id: ticket
+    attributes:
+      label: Ticket
+      description: Link to the ticket for this feature
+      placeholder: ex. https://jira.com/ticket/123
+      value: |
+        *No Ticket*
+    validations:
+      required: false
