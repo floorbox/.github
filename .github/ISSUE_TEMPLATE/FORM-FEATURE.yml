@@ -1,7 +1,7 @@
-name: Support Issue
-description: Create a support issue
-title: "[SUPP]: "
-labels: "support"
+name: 2 - Feature Issue
+description: Create a feature issue
+title: "[FEAT]: "
+labels: "feature"
 projects: floorbox/2
 body:
   - type: textarea
