@@ -1,1 +1,13 @@
-
+name: Report Issue
+description: Create a report issue
+title: "[BUG]: "
+labels: "bug"
+projects: floorbox/2
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A description of the issue
+    validations:
+      required: true
