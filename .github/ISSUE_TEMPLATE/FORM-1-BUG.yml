@@ -1,5 +1,5 @@
-name: Bug Issue
-description: Create a bug issue
+name: Bug
+description: Report a bug
 title: "[BUG]: "
 labels: "bug"
 projects: floorbox/2
