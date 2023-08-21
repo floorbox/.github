@@ -1,0 +1,13 @@
+name: Support Issue
+description: Create a support issue
+title: "[SUPP]: "
+labels: "support"
+projects: floorbox/2
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A description of the issue
+    validations:
+      required: true
