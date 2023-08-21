@@ -1,5 +1,5 @@
-name: Bug Issue
-description: Create a bug issue
+name: Customer Bug Issue
+description: Create a customer bug issue
 title: "[BUG]: "
 labels: "bug"
 projects: floorbox/2
