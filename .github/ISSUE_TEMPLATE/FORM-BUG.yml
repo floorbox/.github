@@ -10,9 +10,8 @@ body:
       label: Contact Details
       description: Contact details for the user who requested this feature
       value: |
-        ex. User - email@example.com OR *No Contact*
-
-        ---------------------------------------------
+      
+        --------------------------
     validations:
       required: false
   - type: textarea
@@ -21,9 +20,8 @@ body:
       label: Bug description
       description: A description of the bug
       value: |
-        *No Description*
-
-        ---------------------------------------------
+      
+        --------------------------
     validations:
       required: true
   - type: textarea
@@ -32,11 +30,8 @@ body:
       label: Replication
       description: Describe how to replicate the bug
       value: |
-        - [ ] Step 1
-        - [ ] Step 2
-        - [ ] Step 3
-
-        ---------------------------------------------
+      
+        --------------------------
     validations:
       required: false
   - type: textarea
@@ -45,7 +40,8 @@ body:
       label: Ressources
       description: Links to ressources that can help with the resolution
       value: |
-        ---------------------------------------------
+      
+        --------------------------
     validations:
       required: false
   - type: textarea
@@ -54,11 +50,8 @@ body:
       label: Notes
       description: Any additional notes
       value: |
-        ```php
-        echo "This is a bug";
-        ```
-
-        ---------------------------------------------
+      
+        --------------------------
     validations:
       required: false
   - type: input
