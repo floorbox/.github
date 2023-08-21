@@ -1,5 +1,5 @@
-name: Support Issue
-description: Create a support issue
+name: Customer Support Issue
+description: Create a customer support issue
 title: "[SUPPORT]: "
 labels: "support"
 projects: floorbox/2
