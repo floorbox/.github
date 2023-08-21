@@ -1,5 +1,5 @@
-name: Customer Feature Issue
-description: Create a customer feature issue
+name: Customer Feature Request
+description: Create a customer feature request issue
 title: "[FEAT]: "
 labels: "feature"
 projects: floorbox/2
