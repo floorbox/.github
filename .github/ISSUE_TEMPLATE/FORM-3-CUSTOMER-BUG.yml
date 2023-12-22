@@ -23,36 +23,6 @@ body:
       
         --------------------------
     validations:
-      required: true
-  - type: textarea
-    id: replication
-    attributes:
-      label: Replication
-      description: Describe how to replicate the bug
-      value: |
-      
-        --------------------------
-    validations:
-      required: false
-  - type: textarea
-    id: ressources
-    attributes:
-      label: Ressources
-      description: Links to ressources that can help with the resolution
-      value: |
-      
-        --------------------------
-    validations:
-      required: false
-  - type: textarea
-    id: notes
-    attributes:
-      label: Notes
-      description: Any additional notes
-      value: |
-      
-        --------------------------
-    validations:
       required: false
   - type: input
     id: ticket
