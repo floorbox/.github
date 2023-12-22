@@ -23,46 +23,6 @@ body:
       
         --------------------------
     validations:
-      required: true
-  - type: textarea
-    id: reason
-    attributes:
-      label: Reason for feature request
-      description: Why is this feature needed?
-      value: |
-      
-        --------------------------
-    validations:
-      required: true
-  - type: textarea
-    id: flow
-    attributes:
-      label: Flow
-      description: Describe the intended user flow of the feature
-      value: |
-      
-        --------------------------
-    validations:
-      required: false
-  - type: textarea
-    id: ressources
-    attributes:
-      label: Ressources
-      description: Links to ressources that can help with the implementation
-      value: |
-      
-        --------------------------
-    validations:
-      required: false
-  - type: textarea
-    id: notes
-    attributes:
-      label: Notes
-      description: Any additional notes
-      value: |
-      
-        --------------------------
-    validations:
       required: false
   - type: input
     id: ticket
