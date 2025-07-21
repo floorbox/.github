@@ -1,0 +1,36 @@
+name: New Release
+
+on:
+    workflow_dispatch:
+        inputs:
+            version:
+                description: "Version to release (e.g., 2025.29.0)"
+                required: true
+                type: string
+            previous_version:
+                description: "Previous version for changelog (e.g., 2025.28.0) - optional"
+                required: false
+                type: string
+            draft:
+                description: "Create as draft"
+                required: false
+                type: boolean
+                default: true
+
+jobs:
+    release:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+
+        steps:
+            - uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
+
+            - name: Execute release
+              uses: pylesoft/release-action@v0.1
+              with:
+                  version: ${{ inputs.version }}
+                  previous-version: ${{ inputs.previous_version }}
+                  draft: ${{ inputs.draft }}
