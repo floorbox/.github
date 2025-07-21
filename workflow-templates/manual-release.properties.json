@@ -2,6 +2,5 @@
     "name": "Pyle Manual Release",
     "description": "Manual Release workflow template for Pyle projects.",
     "iconName": "octicon rocket",
-    "categories": ["PHP", "Release"],
-    "filePatterns": ["composer.json$"]
+    "categories": ["PHP", "Release"]
 }
